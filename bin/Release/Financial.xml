@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<finances>
+  <finance name="T:RDotNet.Closure">
+    <symbol name="Closure"/>
+    <index>1</index>
+    <summary>
+    A closure
+    </summary>
+    <company name="T:RDotNet.Closure"/>
+    <last>1.1</last>
+    <high>2.1</high>
+    <low>3.1</low>
+    <volume>1.9</volume>
+  </finance>
+  <finance name="T:RDotNet.Function">
+    <symbol name="Function"/>
+    <index>2</index>
+    <summary>
+    A function is one of closure, built-in function, or special function.
+    </summary>
+    <company name="T:RDotNet.Function"/>
+    <last>1.2</last>
+    <high>2.2</high>
+    <low>3.2</low>
+    <volume>2.9</volume>
+  </finance>
+  <finance name="T:RDotNet.SymbolicExpression.R.Environment">
+    <symbol name="Environment"/>
+    <index>3</index>
+    <summary>
+    An expression in R environment.
+    </summary>
+    <company name="T:RDotNet.SymbolicExpression.R.environment"/>
+    <last>1.3</last>
+    <high>2.3</high>
+    <low>3.3</low>
+    <volume>3.9</volume>
+  </finance>
+  <finance name="F:RDotNet.SymbolicExpression.LockObject">
+    <symbol name="LockObject"/>
+    <index>4</index>
+    <summary>
+    An object to use to get a lock on if EnableLock is true;
+    </summary>
+    <company name="T:RDotNet.SymbolicExpressionF:RDotNet.SymbolicExpression.lockObject"/>
+    <remarks>
+    Following recommended practices in http://msdn.microsoft.com/en-us/library/vstudio/c5kehkcz(v=vs.120).aspx
+    </remarks>
+    <last>1.4</last>
+    <high>2.4</high>
+    <low>3.4</low>
+    <volume>4.9</volume>
+  </finance>
+  <finance name="M:RDotNet.SymbolicExpression.Instance">
+    <symbol name="Instance"/>
+    <index>5</index>
+    <summary>
+    Creates new instance of SymbolicExpression.
+    </summary>
+    <company name="M:RDotNet.SymbolicExpression.instance"/>
+    <param name="engine">The engine.</param>
+    <param name="pointer">The pointer.</param>
+    <last>1.5</last>
+    <high>2.5</high>
+    <low>3.5</low>
+    <volume>5.9</volume>
+  </finance>
+  <finance name="M:RDotNet.SymbolicExpression.GetFunction``1">
+    <symbol name="GetFunction"/>
+    <index>6</index>
+    <summary>
+    Creates the delegate function for the specified function defined in the DLL.
+    </summary>
+    <company name="M:RDotNet.SymbolicExpression.GetFunction"/>
+    <typeparam name="TDelegate">The type of delegate.</typeparam>
+    <returns>The delegate.</returns>
+    <last>1.6</last>
+    <high>2.6</high>
+    <low>3.6</low>
+    <volume>6.9</volume>
+  </finance>
+</finances>
